@@ -1,0 +1,68 @@
+Modify "c" "Kepler-1505" #ESI0.93
+{
+	Texture "psychroplanet1.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+	UniformRotation
+	{
+		Period 10.55078
+		Inclination 81.48983
+		AscendingNode 290.31092
+	}
+}
+
+Modify "KOI-7235.01" "KOI-7235" #ESI0.89
+{
+	Texture "psychroplanet3.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+	UniformRotation
+	{
+		Period 10.55078
+		Inclination 83.33891
+		AscendingNode 285.68276
+	}
+}
+
+Modify "KOI-5819.01" "KOI-5819"
+{
+	Texture "psychroplanet2.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+	UniformRotation
+	{
+		Period 10.55078
+		Inclination 83.33891
+		AscendingNode 285.68276
+	}
+}

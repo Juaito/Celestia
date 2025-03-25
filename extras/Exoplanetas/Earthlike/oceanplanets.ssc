@@ -1,0 +1,348 @@
+Modify "KOI-7894.01" "KOI-7894"
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-456.04" "KOI-456"
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-8000.01" "KOI-8000"
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 83.06794
+		AscendingNode 286.76949
+        	MeridianAngle 195
+	}
+}
+
+Modify "e" "Kepler-296 A" #ESI0.85
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 83.74277
+		AscendingNode 285.16123
+        	MeridianAngle 302
+	}
+}
+
+Modify "b" "Kepler-452" #ESI0.83
+{
+	Texture "oceanplanet.*"
+	Radius 9556
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "e" "Kepler-62" #ESI0.83
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 84.8058
+		AscendingNode 282.14734
+        	MeridianAngle 8
+	}
+}
+
+Modify "c" "Wolf 1061" #ESI0.80
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+        	MeridianAngle 158
+	}
+}
+
+Modify "b" "Kepler-1410" #ESI0.80
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 82.13155
+		AscendingNode 288.86265
+        	MeridianAngle 45
+	}
+}
+
+Modify "c" "Gliese 667 C" #ESI0.80
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+        	MeridianAngle 158
+	}
+}
+
+Modify "d" "K2-3" #ESI0.80
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 113.19072
+		AscendingNode 171.30996
+        	MeridianAngle 146
+	}
+}
+
+Modify "b" "Kepler-1544" #ESI0.79
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 79.55528
+		AscendingNode 295.30303
+        	MeridianAngle 143
+	}
+}
+
+Modify "c" "Kepler-283" #ESI0.79
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 81.01621
+		AscendingNode 291.78583
+        	MeridianAngle 287
+	}
+}
+
+Modify "b" "Kepler-1638" #ESI0.76
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 80.32058
+		AscendingNode 293.55357
+        	MeridianAngle 288
+	}
+}
+
+Modify "b" "Kepler-440" #ESI0.75
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Period 2426.67384
+		Inclination 84.01213
+		AscendingNode 284.10873
+        	MeridianAngle 127
+	}
+}
+
+Modify "b" "Kepler-1653" #ESI0.74
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 79.91707
+		AscendingNode 294.47496
+        	MeridianAngle 147
+	}
+}
+
+Modify "b" "Kepler-705" #ESI0.73
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "oceaneyeballclouds.*"
+	}
+	UniformRotation
+	{
+		Inclination 82.37596
+		AscendingNode 288.00211
+        	MeridianAngle 310
+	}
+}
+

@@ -1,0 +1,336 @@
+"Kepler-90 h I" "Kepler-90/h"
+{
+	Texture "exomoon1.*"
+	NightTexture "nightexomoon1.jpg"	
+	Radius 4900
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon1.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "altclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            1.8
+	SemiMajorAxis     382685
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Kepler-90 h II" "Kepler-90/h"
+{
+	Texture "exomoon2.*"	
+	Radius 5500
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon2.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "earthlikeclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            3.6
+	SemiMajorAxis     802685
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Kepler-90 h III" "Kepler-90/h"
+{
+	Texture "exomoon3.*"	
+	Radius 4500
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon3.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "earthlikeclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+		Period            7.6
+		SemiMajorAxis     1500685
+		Eccentricity      0.0034
+		Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Krai Thong" "Chalawan/Taphao Thong"
+{
+	Texture "exomoon5.*"	
+	Radius 5378.140
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon5.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+	}
+
+	EllipticalOrbit
+	{
+	Period            3.6
+	SemiMajorAxis     900000
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Vimala" "Chalawan/Taphao Thong"
+{
+	Texture "exomoon6.png"	
+	Radius 3400
+	Atmosphere {
+		Height 30
+		Lower [ 0.8 0.6 0.6 ]
+		Upper [ 0.7 0.3 0.3 ]
+		Sky [ 0.83 0.75 0.65 ]
+                Sunset [ 0.7 0.7 0.8 ] 
+                Mie 0.0024
+		MieAsymmetry -0.15
+		Rayleigh [ 0.0010 0.0006 0.0003 ]
+		Absorption [ 0 0 0 ]
+		MieScaleHeight 20
+	}
+	EllipticalOrbit
+	{
+		Period            7.5
+		SemiMajorAxis     1800000
+		Eccentricity      0.0034
+		Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+
+"Iepe" "Tupi/Guarani"
+{
+	Texture "exomoon7.*"
+	NightTexture "nightexomoon7.*"	
+	Radius 4700
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon7.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "altclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            1.8
+	SemiMajorAxis     360685
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+
+"Mucuem" "Tupi/Guarani"
+{
+	Texture "exomoon8.*"	
+	Radius 5000
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon8.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "earthlikeclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            3.6
+	SemiMajorAxis     850000
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Mucapeire" "Tupi/Guarani"
+{
+	Texture "exomoon9.*"	
+	Radius 1500
+	EllipticalOrbit
+	{
+		Period            7.5
+		SemiMajorAxis     1700000
+		Eccentricity      0.0034
+		Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"HD 28185 b I" "HD 28185/b"
+{
+	Texture "exomoon10.*"	
+	Radius 6078.140
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon10.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "altclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            3.6
+	SemiMajorAxis     900000
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"HD 28185 b II" "HD 28185/b"
+{
+	Texture "exomoon11.*"	
+	Radius 3400.140
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon11.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "altclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            7.5
+	SemiMajorAxis     1800000
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Kepler-1634 b I" "Kepler-1634/b"
+{
+	Texture "exomoon12.*"	
+	Radius 4000
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specexomoon12.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		CloudHeight 8
+		CloudSpeed 48
+		CloudMap "earthlikeclouds.*"
+	}
+
+	EllipticalOrbit
+	{
+	Period            3.6
+	SemiMajorAxis     402685
+	Eccentricity      0.0034
+	Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}
+
+"Kepler-1634 b II" "Kepler-1634/b"
+{
+	Texture "exomoon13.*"	
+	Radius 1500
+	EllipticalOrbit
+	{
+		Period            7.5
+		SemiMajorAxis     900000
+		Eccentricity      0.0034
+		Inclination       0.0850	
+	}
+	Obliquity	 0.01
+	Albedo        	 0.35
+}

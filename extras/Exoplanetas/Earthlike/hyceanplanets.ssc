@@ -1,0 +1,152 @@
+Modify "d" "Gliese 433" #ESI0.74
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "c" "Gliese 832" #ESI0.74
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "K2-332" #ESI0.73
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "c" "Kepler-155" #ESI0.73
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "Kepler-443" #ESI0.71
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "Kepler-22" #ESI0.71
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "Kepler-1701" #ESI0.71
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "K2-18" #ESI0.70
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}
+
+Modify "b" "TOI-1231"
+{
+	Texture "oceanplanet.*"
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "hyceanclouds.*"
+	}
+}

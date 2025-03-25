@@ -1,0 +1,24 @@
+Modify "h" "Kepler-90"
+{
+	Texture "hydronian1.*"
+}
+
+Modify "Guarani" "Tupi"
+{
+	Texture "hydronian2.*"
+}
+
+Modify "b" "Kepler-1634"
+{
+	Texture "hydronian3.*"
+}
+
+Modify "b" "HD 28185"
+{
+	Texture "hydronian4.*"
+}
+
+Modify "Taphao Thong" "Chalawan"
+{
+	Texture "hydronian5.*"
+}

@@ -1,0 +1,116 @@
+Modify "KOI-4878.01" "KOI-4878" #ESI0.98
+{
+	Texture "mesoplanet1.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specmesoplanet1.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-5737.01" "KOI-5737" #ESI0.90
+{
+	Texture "mesoplanet4.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-7179.01" "KOI-7179" #ESI0.89
+{
+	Texture "mesoplanet2.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specmesoplanet2.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-5806.01" "KOI-5806" #ESI0.88
+{
+	Texture "mesoplanet6.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-5554.01" "KOI-5554"
+{
+	Texture "mesoplanet3.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "specmesoplanet3.jpg"
+	SpecularColor [ 0.5 0.55 0.7 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}
+
+Modify "KOI-7711.01" "KOI-7711"
+{
+	Texture "mesoplanet5.*"
+	Atmosphere {
+		Height 60
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.6 0.2 ]
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+		CloudMap "earthlikeclouds.*"
+	}
+}

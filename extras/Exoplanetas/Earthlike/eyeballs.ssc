@@ -1,0 +1,304 @@
+Modify "d" "TOI-700" #ESI0.93
+{
+	Texture "eyeball6.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball6.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 92.54527
+		AscendingNode 96.50722
+        	MeridianAngle 355
+	}
+}
+
+Modify "c" "Kepler-1649" #ESI0.92
+{
+	Texture "eyeball7.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball7.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 81.82886
+		AscendingNode 290.51892
+        	MeridianAngle 26
+	}
+}
+
+Modify "e" "K2-72"  #ESI0.87
+{
+	Texture "eyeball4.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball4.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 68.93717
+		AscendingNode 332.6597
+        	MeridianAngle 212
+	}
+}
+
+
+Modify "c" "GJ 1061" #ESI0.86
+{
+	Texture "eyeball3.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball3.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 49.65197
+		AscendingNode 266.63158
+        	MeridianAngle 5
+	}
+}
+
+Modify "b" "Ross 128" #ESI0.86
+{
+	Texture "eyeball2.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball2.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 66.59272
+		AscendingNode 357.18333
+        	MeridianAngle 270
+	}
+}
+
+Modify "b" "Luyten's Star" #ESI0.85
+{
+	Texture "eyeball4.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball4.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+        	MeridianAngle 105
+	}
+}
+
+Modify "b" "Kepler-442" #ESI0.84
+{
+	Texture "eyeball4.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball4.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 84.02514
+		AscendingNode 284.11104
+		MeridianAngle 222
+	}
+}
+
+Modify "b" "KOI-2626" #ESI0.83
+{
+	Texture "eyeball1.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball1.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 80.89066
+		AscendingNode 292.45041
+        	MeridianAngle 1
+	}
+}
+
+Modify "b" "Kepler-438"
+{
+	Texture "eyeball5.*"
+	HazeColor [ 0.1 0.1 0.1 ]
+	HazeDensity 8
+	SpecularTexture "speceyeball5.jpg"
+	SpecularColor [ 0.8 0.8 0.85 ]
+	SpecularPower 15.0
+	Atmosphere {
+		Height 100
+		Lower [ 0.43 0.52 0.65 ]
+		Upper [ 0.26 0.47 0.84 ]
+		Sky [ 0.40 0.6 1.0 ]
+		Sunset [ 1.0 0.4 0.4 ]
+
+		CloudHeight 10
+		CloudSpeed 0
+		CloudMap "eyeballclouds.png"
+		CloudShadowDepth 1.0
+		MeridianAngle 90
+
+		Mie 0.001
+		MieAsymmetry -0.25
+		Rayleigh [ 0.001 0.0025 0.006 ]
+		MieScaleHeight 12
+	}
+	UniformRotation
+	{
+		Inclination 86.07634
+		AscendingNode 280.38873                   
+		MeridianAngle 282
+	}
+}
