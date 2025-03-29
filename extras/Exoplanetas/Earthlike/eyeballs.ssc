@@ -28,7 +28,7 @@ Modify "d" "TOI-700" #ESI0.93
 	{
 		Inclination 92.54527
 		AscendingNode 96.50722
-        	MeridianAngle 355
+        	MeridianAngle 85
 	}
 }
 
@@ -131,7 +131,7 @@ Modify "c" "GJ 1061" #ESI0.86
 	{
 		Inclination 49.65197
 		AscendingNode 266.63158
-        	MeridianAngle 5
+        	MeridianAngle 195
 	}
 }
 
@@ -165,7 +165,7 @@ Modify "b" "Ross 128" #ESI0.86
 	{
 		Inclination 66.59272
 		AscendingNode 357.18333
-        	MeridianAngle 270
+        	MeridianAngle 60
 	}
 }
 
