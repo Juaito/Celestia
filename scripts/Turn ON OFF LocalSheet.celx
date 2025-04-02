@@ -1,0 +1,15 @@
+-- Title: Turn ON/OFF Local Sheet
+
+   LocalSheet = celestia:find("LocalSheet");
+   LocalSheetCenter = celestia:find("LocalSheetCenter");
+
+   if not LocalSheet:visible() then
+      LocalSheet:setvisible(true)
+      LocalSheetCenter:setvisible(true)
+      celestia:print(" Local Sheet is now visible.", 8)
+
+   elseif LocalSheet:visible() then
+      LocalSheet:setvisible(false)
+      LocalSheetCenter:setvisible(false)
+      celestia:print(" Local Sheet is now invisible", 3)
+   end

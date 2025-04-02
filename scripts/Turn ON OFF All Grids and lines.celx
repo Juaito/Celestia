@@ -1,0 +1,114 @@
+-- Title: Turn ON/OFF All Grids and lines 
+   HouseGrid = celestia:find("HouseGrid");
+
+
+ SquareGrid = celestia:find("SquareGrid");
+
+
+ NeighborhoodGrid = celestia:find("NeighborhoodGrid"); TownGrid = celestia:find("TownGrid"); CityGrid = celestia:find("CityGrid"); Eclipticaline = celestia:find("Eclipticaline"); Ecuatorialline = celestia:find("Ecuatorialline");
+
+
+ LocalSheet = celestia:find("LocalSheet"); Supergalactica = celestia:find("Supergalactica"); RedShiftCMB = celestia:find("RedShiftCMB");
+
+
+  
+RedShiftAA = celestia:find("RedShiftAA");
+   RedShiftAB = celestia:find("RedShiftAB");
+   RedShiftAC = celestia:find("RedShiftAC");
+   RedShiftAD = celestia:find("RedShiftAD");
+   RedShiftAE = celestia:find("RedShiftAE");
+   RedShiftAF = celestia:find("RedShiftAF");
+   RedShiftAG = celestia:find("RedShiftAG");
+   RedShiftAH = celestia:find("RedShiftAH");
+   RedShiftAI = celestia:find("RedShiftAI");
+
+   RedShiftBA = celestia:find("RedShiftBA");
+   RedShiftBAA = celestia:find("RedShiftBAA");
+   RedShiftBB = celestia:find("RedShiftBB");
+   RedShiftBC = celestia:find("RedShiftBC");
+   RedShiftBD = celestia:find("RedShiftBD");
+   RedShiftBE = celestia:find("RedShiftBE");
+   RedShiftBF = celestia:find("RedShiftBF");
+   RedShiftBG = celestia:find("RedShiftBG");
+   RedShiftBH = celestia:find("RedShiftBH");
+   RedShiftBI = celestia:find("RedShiftBI"); RedShiftCA = celestia:find("RedShiftCA");
+   RedShiftCB = celestia:find("RedShiftCB");
+   RedShiftCC = celestia:find("RedShiftCC");
+   RedShiftCD = celestia:find("RedShiftCD");
+   RedShiftCE = celestia:find("RedShiftCE");
+   RedShiftCF = celestia:find("RedShiftCF");
+   RedShiftCG = celestia:find("RedShiftCG");
+   RedShiftCH = celestia:find("RedShiftCH");
+   RedShiftCI = celestia:find("RedShiftCI");
+
+ RedshiftIO = celestia:find("RedshiftIO");
+
+
+	if not RedShiftAA:visible() then
+		Supergalactica:setvisible(true)
+ HouseGrid:setvisible(true)
+ SquareGrid:setvisible(true) NeighborhoodGrid:setvisible(true)  TownGrid:setvisible(true)   CityGrid:setvisible(true)
+  Eclipticaline:setvisible(true) Ecuatorialline:setvisible(true) LocalSheet:setvisible(true) RedShiftCMB:setvisible(true) RedShiftAA:setvisible(true)
+      RedShiftAB:setvisible(true)
+      RedShiftAC:setvisible(true)
+      RedShiftAD:setvisible(true)
+      RedShiftAE:setvisible(true)
+      RedShiftAF:setvisible(true)
+      RedShiftAG:setvisible(true)
+      RedShiftAH:setvisible(true)
+      RedShiftAI:setvisible(true)
+    RedShiftBA:setvisible(true)
+      RedShiftBAA:setvisible(true)
+      RedShiftBB:setvisible(true)
+      RedShiftBC:setvisible(true)
+      RedShiftBD:setvisible(true)
+      RedShiftBE:setvisible(true)
+      RedShiftBF:setvisible(true)
+      RedShiftBG:setvisible(true)
+      RedShiftBH:setvisible(true)
+      RedShiftBI:setvisible(true) RedShiftCA:setvisible(true)
+      RedShiftCB:setvisible(true)
+      RedShiftCC:setvisible(true)
+      RedShiftCD:setvisible(true)
+      RedShiftCE:setvisible(true)
+      RedShiftCF:setvisible(true)
+      RedShiftCG:setvisible(true)
+      RedShiftCH:setvisible(true)
+      RedShiftCI:setvisible(true)
+ RedshiftIO:setvisible(true)
+ celestia:print(" Galactic grid is now visible.", 8)
+
+   elseif RedShiftAA:visible() then
+   HouseGrid:setvisible(false)
+  SquareGrid:setvisible(false)  NeighborhoodGrid:setvisible(false)  TownGrid:setvisible(false)  CityGrid:setvisible(false) Eclipticaline:setvisible(false)
+
+ Ecuatorialline:setvisible(false) Supergalactica:setvisible(false) LocalSheet:setvisible(false) RedShiftCMB:setvisible(false) RedShiftAA:setvisible(false)
+      RedShiftAB:setvisible(false)
+      RedShiftAC:setvisible(false)
+      RedShiftAD:setvisible(false)
+      RedShiftAE:setvisible(false)
+      RedShiftAF:setvisible(false)
+      RedShiftAG:setvisible(false)
+      RedShiftAH:setvisible(false)
+      RedShiftAI:setvisible(false)
+  RedShiftBA:setvisible(false)
+      RedShiftBAA:setvisible(false)
+      RedShiftBB:setvisible(false)
+      RedShiftBC:setvisible(false)
+      RedShiftBD:setvisible(false)
+      RedShiftBE:setvisible(false)
+      RedShiftBF:setvisible(false)
+      RedShiftBG:setvisible(false)
+      RedShiftBH:setvisible(false)
+      RedShiftBI:setvisible(false)
+       RedShiftCA:setvisible(false)
+      RedShiftCB:setvisible(false)
+      RedShiftCC:setvisible(false)
+      RedShiftCD:setvisible(false)
+      RedShiftCE:setvisible(false)
+      RedShiftCF:setvisible(false)
+      RedShiftCG:setvisible(false)
+      RedShiftCH:setvisible(false)
+      RedShiftCI:setvisible(false)
+  RedshiftIO:setvisible(false)  celestia:print(" Galactic grid is now invisible", 3)
+   end

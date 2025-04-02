@@ -1,0 +1,19 @@
+-- Title: Turn ON/OFF All Galactic Grids 
+   HouseGrid = celestia:find("HouseGrid");
+
+
+ SquareGrid = celestia:find("SquareGrid");
+
+
+ NeighborhoodGrid = celestia:find("NeighborhoodGrid"); TownGrid = celestia:find("TownGrid"); CityGrid = celestia:find("CityGrid");
+
+
+	if not HouseGrid:visible() then
+ HouseGrid:setvisible(true)
+ SquareGrid:setvisible(true) NeighborhoodGrid:setvisible(true)  TownGrid:setvisible(true)   CityGrid:setvisible(true)
+ celestia:print(" Galactic grid is now visible.", 8)
+
+   elseif HouseGrid:visible() then
+   HouseGrid:setvisible(false)
+  SquareGrid:setvisible(false)  NeighborhoodGrid:setvisible(false)  TownGrid:setvisible(false)  CityGrid:setvisible(false)  celestia:print(" Galactic grid is now invisible", 3)
+   end

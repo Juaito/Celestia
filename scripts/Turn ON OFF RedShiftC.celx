@@ -1,0 +1,36 @@
+-- Title: Turn ON/OFF RedShift z1 to z9
+
+   RedShiftCA = celestia:find("RedShiftCA");
+   RedShiftCB = celestia:find("RedShiftCB");
+   RedShiftCC = celestia:find("RedShiftCC");
+   RedShiftCD = celestia:find("RedShiftCD");
+   RedShiftCE = celestia:find("RedShiftCE");
+   RedShiftCF = celestia:find("RedShiftCF");
+   RedShiftCG = celestia:find("RedShiftCG");
+   RedShiftCH = celestia:find("RedShiftCH");
+   RedShiftCI = celestia:find("RedShiftCI");
+
+   if not RedShiftCA:visible() then
+      RedShiftCA:setvisible(true)
+      RedShiftCB:setvisible(true)
+      RedShiftCC:setvisible(true)
+      RedShiftCD:setvisible(true)
+      RedShiftCE:setvisible(true)
+      RedShiftCF:setvisible(true)
+      RedShiftCG:setvisible(true)
+      RedShiftCH:setvisible(true)
+      RedShiftCI:setvisible(true)
+      celestia:print(" z1 to z9 in RedShift are now visible.", 8)
+
+   elseif RedShiftCA:visible() then
+      RedShiftCA:setvisible(false)
+      RedShiftCB:setvisible(false)
+      RedShiftCC:setvisible(false)
+      RedShiftCD:setvisible(false)
+      RedShiftCE:setvisible(false)
+      RedShiftCF:setvisible(false)
+      RedShiftCG:setvisible(false)
+      RedShiftCH:setvisible(false)
+      RedShiftCI:setvisible(false)
+      celestia:print(" z1 to z9 in RedShift are now invisible", 3)
+   end

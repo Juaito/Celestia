@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF 1000 Light Years Grid
+
+    NeighborhoodGrid = celestia:find("NeighborhoodGrid");
+
+
+	if not NeighborhoodGrid:visible() then
+		NeighborhoodGrid:setvisible(true)
+		celestia:print(" NeighborhoodGrid is now visible.", 8)
+
+	elseif NeighborhoodGrid:visible() then
+		NeighborhoodGrid:setvisible(false)
+		celestia:print(" NeighborhoodGrid is now invisible", 3)
+	end

@@ -1,0 +1,11 @@
+-- Title: Turn ON/OFF Galactic Line 
+   RedShiftCMB = celestia:find("RedShiftCMB");
+
+
+	if not RedShiftCMB:visible() then
+ RedShiftCMB:setvisible(true)
+ celestia:print(" Galactic grid is now visible.", 8)
+
+   elseif RedShiftCMB:visible() then
+   RedShiftCMB:setvisible(false)  celestia:print(" Galactic grid is now invisible", 3)
+   end

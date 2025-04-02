@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Supergalatic line
+
+    Supergalactica = celestia:find("Supergalactica");
+
+
+	if not Supergalactica:visible() then
+		Supergalactica:setvisible(true)
+		celestia:print(" Supergalactic is now visible.", 8)
+
+	elseif Supergalactica:visible() then
+		Supergalactica:setvisible(false)
+		celestia:print(" Supergalactic is now invisible", 3)
+	end

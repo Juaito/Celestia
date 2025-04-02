@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF 10 Light Years Grid
+
+    HouseGrid = celestia:find("HouseGrid");
+
+
+	if not HouseGrid:visible() then
+		HouseGrid:setvisible(true)
+		celestia:print(" HouseGrid is now visible.", 8)
+
+	elseif HouseGrid:visible() then
+		HouseGrid:setvisible(false)
+		celestia:print(" HouseGrid is now invisible", 3)
+	end

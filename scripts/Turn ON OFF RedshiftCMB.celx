@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Redshift z1000
+
+    RedshiftCMB = celestia:find("RedshiftCMB");
+
+
+	if not RedshiftCMB:visible() then
+		RedshiftCMB:setvisible(true)
+		celestia:print(" RedshiftCMB is now visible.", 8)
+
+	elseif RedshiftCMB:visible() then
+		RedshiftCMB:setvisible(false)
+		celestia:print(" RedshiftCMB is now invisible", 3)
+	end

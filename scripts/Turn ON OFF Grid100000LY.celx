@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF 100000 Light Years Grid
+
+    CityGrid = celestia:find("CityGrid");
+
+
+	if not CityGrid:visible() then
+		CityGrid:setvisible(true)
+		celestia:print(" CityGrid is now visible.", 8)
+
+	elseif CityGrid:visible() then
+		CityGrid:setvisible(false)
+		celestia:print(" CityGrid is now invisible", 3)
+	end

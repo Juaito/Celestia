@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF 100 Light Years Grid
+
+    SquareGrid = celestia:find("SquareGrid");
+
+
+	if not SquareGrid:visible() then
+		SquareGrid:setvisible(true)
+		celestia:print(" SquareGrid is now visible.", 8)
+
+	elseif SquareGrid:visible() then
+		SquareGrid:setvisible(false)
+		celestia:print(" SquareGrid is now invisible", 3)
+	end

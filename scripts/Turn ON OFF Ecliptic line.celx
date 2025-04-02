@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Ecliptic line
+
+    Eclipticaline = celestia:find("Eclipticaline");
+
+
+	if not Eclipticaline:visible() then
+		Eclipticaline:setvisible(true)
+		celestia:print(" Eclipticaline is now visible.", 8)
+
+	elseif Eclipticaline:visible() then
+		Eclipticaline:setvisible(false)
+		celestia:print(" Eclipticaline is now invisible", 3)
+	end

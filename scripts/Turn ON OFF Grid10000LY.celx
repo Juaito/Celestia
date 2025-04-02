@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF 10000 Light Years Grid
+
+    TownGrid = celestia:find("TownGrid");
+
+
+	if not TownGrid:visible() then
+		TownGrid:setvisible(true)
+		celestia:print(" TownGrid is now visible.", 8)
+
+	elseif TownGrid:visible() then
+		TownGrid:setvisible(false)
+		celestia:print(" TownGrid is now invisible", 3)
+	end

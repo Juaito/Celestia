@@ -1,0 +1,36 @@
+-- Title: Turn ON/OFF RedShift z0.01 to z0.09
+
+   RedShiftAA = celestia:find("RedShiftAA");
+   RedShiftAB = celestia:find("RedShiftAB");
+   RedShiftAC = celestia:find("RedShiftAC");
+   RedShiftAD = celestia:find("RedShiftAD");
+   RedShiftAE = celestia:find("RedShiftAE");
+   RedShiftAF = celestia:find("RedShiftAF");
+   RedShiftAG = celestia:find("RedShiftAG");
+   RedShiftAH = celestia:find("RedShiftAH");
+   RedShiftAI = celestia:find("RedShiftAI");
+
+   if not RedShiftAA:visible() then
+      RedShiftAA:setvisible(true)
+      RedShiftAB:setvisible(true)
+      RedShiftAC:setvisible(true)
+      RedShiftAD:setvisible(true)
+      RedShiftAE:setvisible(true)
+      RedShiftAF:setvisible(true)
+      RedShiftAG:setvisible(true)
+      RedShiftAH:setvisible(true)
+      RedShiftAI:setvisible(true)
+      celestia:print(" z0.01 to z0.09 in RedShift are now visible.", 8)
+
+   elseif RedShiftAA:visible() then
+      RedShiftAA:setvisible(false)
+      RedShiftAB:setvisible(false)
+      RedShiftAC:setvisible(false)
+      RedShiftAD:setvisible(false)
+      RedShiftAE:setvisible(false)
+      RedShiftAF:setvisible(false)
+      RedShiftAG:setvisible(false)
+      RedShiftAH:setvisible(false)
+      RedShiftAI:setvisible(false)
+      celestia:print(" z0.01 to z0.09 in RedShift are now invisible", 3)
+   end

@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Equatorial line
+
+    Ecuatorialline = celestia:find("Ecuatorialline");
+
+
+	if not Ecuatorialline:visible() then
+		Ecuatorialline:setvisible(true)
+		celestia:print(" Ecuatorialline is now visible.", 8)
+
+	elseif Ecuatorialline:visible() then
+		Ecuatorialline:setvisible(false)
+		celestia:print(" Ecuatorialline is now invisible", 3)
+	end

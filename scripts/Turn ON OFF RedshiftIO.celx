@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Redshift z20
+
+    RedshiftIO = celestia:find("RedshiftIO");
+
+
+	if not RedshiftIO:visible() then
+		RedshiftIO:setvisible(true)
+		celestia:print(" RedshiftIO is now visible.", 8)
+
+	elseif RedshiftIO:visible() then
+		RedshiftIO:setvisible(false)
+		celestia:print(" RedshiftIO is now invisible", 3)
+	end
