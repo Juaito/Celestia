@@ -4,7 +4,7 @@ This is a custom Celestia project that includes add-ons from various authors and
 
 <h3>Grids and lines</h3>
 
-Includes all type of lines and grids to mark lightyear distances,  redshift distance,  equatorial line, ecliptic line, galactic line, local sheet line and supergalactic line.</br>&nbsp;</br>
+Includes all type of lines and grids to mark lightyear distances (inside Milky Way),  redshift distances (outside Milky Way),  equatorial line, ecliptic line, galactic line, local sheet line and supergalactic line.</br>&nbsp;</br>
 
 <h3>Extrasolar Planets (updated catalogue)</h3>
 
