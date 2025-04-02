@@ -16,5 +16,5 @@ Based in a Thermal Planetary Habitability Classification for Exoplanets and list
 
 <h3>Real Giant Hydronians with fantasy earthlike exomoons</h3>
 
-Includes 5 real gas giants in habitable zone and fantasy exomoons with eartlike appearances and other appearances-like.  <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=22209">by DrJMOS</a>.</br>&nbsp;</br>
+Includes 5 real gas giants in habitable zone and fantasy exomoons with eartlike appearances and other appearances <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=22209">by DrJMOS</a>.</br>&nbsp;</br>
 
