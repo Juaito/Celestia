@@ -1,6 +1,6 @@
 <h2>Description of content</h2>
 
-This is a custom Celestia project that includes add-ons from various authors and add-ons created by myself. It only contains the custom files; the entire software must be downloaded from the official Celestia website. 
+This is a custom Celestia project that includes add-ons from various authors and add-ons created by myself. It only contains the custom files; the entire software must be downloaded from the [official Celestia website](https://celestiaproject.space/). 
 
 <h3>Grids and lines</h3>
 
