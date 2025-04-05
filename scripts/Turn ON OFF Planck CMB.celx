@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Planck Cosmic Microwave Background
+
+    HouseGrid = celestia:find("PlanckCMB");
+
+
+	if not HouseGrid:visible() then
+		HouseGrid:setvisible(true)
+		celestia:print(" HouseGrid is now visible.", 8)
+
+	elseif HouseGrid:visible() then
+		HouseGrid:setvisible(false)
+		celestia:print(" HouseGrid is now invisible", 3)
+	end
