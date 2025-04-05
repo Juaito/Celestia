@@ -1,0 +1,13 @@
+-- Title: Turn ON/OFF Milky Way
+
+    MilkyWay = celestia:find("MilkyWay");
+
+
+	if not MilkyWay:visible() then
+		MilkyWay:setvisible(true)
+		celestia:print(" Milky Way is now visible.", 8)
+
+	elseif MilkyWay:visible() then
+		MilkyWay:setvisible(false)
+		celestia:print(" Milky Way is now invisible", 3)
+	end
