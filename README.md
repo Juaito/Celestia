@@ -18,3 +18,10 @@ Based in a Thermal Planetary Habitability Classification for Exoplanets and list
 
 Includes 5 real gas giants in habitable zone and fantasy exomoons with eartlike appearances and other appearances <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=22209">by DrJMOS</a>.</br>&nbsp;</br>
 
+<h3>Milky Way</h3>
+
+This addon display the Milky Way 8K texture from [Deep Star Maps 2020 by NASA](https://svs.gsfc.nasa.gov/4851) using the [Selden's CMOD Billboard Meshes for Celestia](https://www.classe.cornell.edu/~seb/celestia/billboard-cmod.html#7.2).</br>&nbsp;</br>
+
+<h3>Planck's Cosmic Microwave Background</h3>
+
+This addon display the Planck's Cosmic Microwave Background 6K texture from [U.S. Data Center at IPAC](https://planck.ipac.caltech.edu/image/planck13-002a) using the [Selden's WMAP Meshes for Celestia](https://www.classe.cornell.edu/~seb/celestia/catalogs.html#3.5.9).</br>&nbsp;</br>
