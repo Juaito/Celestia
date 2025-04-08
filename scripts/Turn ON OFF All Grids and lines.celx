@@ -8,7 +8,10 @@
  NeighborhoodGrid = celestia:find("NeighborhoodGrid"); TownGrid = celestia:find("TownGrid"); CityGrid = celestia:find("CityGrid"); Eclipticaline = celestia:find("Eclipticaline"); Ecuatorialline = celestia:find("Ecuatorialline");
 
 
- LocalSheet = celestia:find("LocalSheet"); Supergalactica = celestia:find("Supergalactica"); RedShiftCMB = celestia:find("RedShiftCMB");
+ LocalSheet = celestia:find("LocalSheet"); Supergalactica = celestia:find("Supergalactica"); Seasonal = celestia:find("Seasonal");
+
+
+ RedShiftCMB = celestia:find("RedShiftCMB");
 
 
   
@@ -48,7 +51,7 @@ RedShiftAA = celestia:find("RedShiftAA");
 		Supergalactica:setvisible(true)
  HouseGrid:setvisible(true)
  SquareGrid:setvisible(true) NeighborhoodGrid:setvisible(true)  TownGrid:setvisible(true)   CityGrid:setvisible(true)
-  Eclipticaline:setvisible(true) Ecuatorialline:setvisible(true) LocalSheet:setvisible(true) RedShiftCMB:setvisible(true) RedShiftAA:setvisible(true)
+  Eclipticaline:setvisible(true) Ecuatorialline:setvisible(true) LocalSheet:setvisible(true) Seasonal:setvisible(true)  RedShiftCMB:setvisible(true) RedShiftAA:setvisible(true)
       RedShiftAB:setvisible(true)
       RedShiftAC:setvisible(true)
       RedShiftAD:setvisible(true)
@@ -82,7 +85,8 @@ RedShiftAA = celestia:find("RedShiftAA");
    HouseGrid:setvisible(false)
   SquareGrid:setvisible(false)  NeighborhoodGrid:setvisible(false)  TownGrid:setvisible(false)  CityGrid:setvisible(false) Eclipticaline:setvisible(false)
 
- Ecuatorialline:setvisible(false) Supergalactica:setvisible(false) LocalSheet:setvisible(false) RedShiftCMB:setvisible(false) RedShiftAA:setvisible(false)
+ Ecuatorialline:setvisible(false) Supergalactica:setvisible(false) LocalSheet:setvisible(false) Seasonal:setvisible(false)
+ RedShiftCMB:setvisible(false) RedShiftAA:setvisible(false)
       RedShiftAB:setvisible(false)
       RedShiftAC:setvisible(false)
       RedShiftAD:setvisible(false)
