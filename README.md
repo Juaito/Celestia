@@ -6,6 +6,10 @@ This is a custom Celestia project that includes add-ons from various authors and
 
 Lines and grids to mark lightyear distances (inside Milky Way),  redshift distances (outside Milky Way),  equatorial line, ecliptic line, galactic line, local sheet line and supergalactic line. Includes scripts to turn ON/OFF lines and grids in the scripts folder.</br>&nbsp;</br>
 
+<h3>Seasonal asterisms</h3>
+
+Seasonal asterisms are patterns of stars that are best seen during specific seasons. They can be made up of stars from one or more constellations. Includes the Summer Triangle, Winter Hexagon, Winter Triangle, Great Square of Pegasus (autumn) and Diamond of Virgo (spring).</br>&nbsp;</br>
+
 <h3>Extrasolar Planets (updated catalogue)</h3>
 
 Includes the most recent catalog of the extrasolar planets <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=18705">by Sirius Alpha</a>. I have created a custom version of the file [celestia.cfg](https://github.com/Juaito/Celestia/blob/main/celestia.cfg) to allow placing files of the exoplanets in folder [data](https://github.com/Juaito/Celestia/tree/main/data).</br>&nbsp;</br>
