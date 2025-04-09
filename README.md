@@ -8,7 +8,7 @@ Lines and grids to mark lightyear distances (inside Milky Way),  redshift distan
 
 <h3>Extrasolar Planets (updated catalogue)</h3>
 
-Includes the Exoplanets_2025_03_05 catalogue <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=18705">by Sirius Alpha</a>. I have created a custom version of the file [celestia.cfg](https://github.com/Juaito/Celestia/blob/main/celestia.cfg) to allow placing files of the Exoplanets_2025_03_05 in folder [data](https://github.com/Juaito/Celestia/tree/main/data).</br>&nbsp;</br>
+Includes the most recent catalog of the extrasolar planets <a href="https://celestiaproject.space/forum/viewtopic.php?f=23&t=18705">by Sirius Alpha</a>. I have created a custom version of the file [celestia.cfg](https://github.com/Juaito/Celestia/blob/main/celestia.cfg) to allow placing files of the exoplanets in folder [data](https://github.com/Juaito/Celestia/tree/main/data).</br>&nbsp;</br>
 
 <h3>Earthlike exoplanets</h3>
 
