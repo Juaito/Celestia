@@ -8,7 +8,7 @@ Lines and grids to mark lightyear distances (inside Milky Way),  redshift distan
 
 <h3>Seasonal asterisms</h3>
 
-Seasonal asterisms are patterns of stars that are best seen during specific seasons. They can be made up of stars from one or more constellations. Includes the Summer Triangle, Winter Hexagon, Winter Triangle, Great Square of Pegasus (autumn) and Diamond of Virgo (spring).</br>&nbsp;</br>
+Seasonal asterisms are patterns of stars that are best seen during specific seasons. They can be made up of stars from one or more constellations. Includes the Summer Triangle, Winter Hexagon, Winter Triangle, Great Square of Pegasus (autumn) and Diamond of Virgo (spring). Asterisms are important for celestial navigation and for identifying stars and deep sky objects. They are also useful for people who are getting to know the night sky.</br>&nbsp;</br>
 
 <h3>Extrasolar Planets (updated catalogue)</h3>
 
