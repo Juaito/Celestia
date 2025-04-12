@@ -26,12 +26,10 @@
  material diffuse 1.0 0.5 0.0 end_material # 17
  material diffuse 1.0 0.5 0.0 end_material # 18
  material diffuse 1.0 0.5 0.0 end_material # 19
- material diffuse 0.5 0.5 0.5 end_material # 20
- material diffuse 0.5 0.5 0.5 end_material # 21
  
 mesh
  vertexdesc position f3 end_vertexdesc
- vertices 42
+ vertices 38
  -4.7826538085938 -3.1559708118439 -9.8991870880127 # 0: 'Procyon'
  -1.6089185476303 -5.471616268158 -6.4141006469727 # 1: 'Sirius'
  10.736163139343 -141.90808105469 -493.89813232422 # 2: 'Betelgeuse'
@@ -70,10 +68,6 @@ mesh
  84.720481872559 42.042694091797 -21.608106613159 # 35: 'Alpheratz'
  167.77949523926 101.3796005249 1.8292984962463 # 36: 'Scheat'
  84.720481872559 42.042694091797 -21.608106613159 # 37: 'Alpheratz'
- 21.038496017456 -9.0596885681152 10.324831962585 # 38: 'Fomalhaut'
- 124.97032928467 44.309169769287 14.269967079163 # 39: 'Markab'
- 28.052089691162 42.674137115479 -19.729026794434 # 40: 'Caph'
- 84.720481872559 42.042694091797 -21.608106613159 # 41: 'Alpheratz'
  
  linelist 1 2 0 1 
  linelist 2 2 2 3 
@@ -94,8 +88,6 @@ mesh
  linelist 17 2 32 33 
  linelist 18 2 34 35 
  linelist 19 2 36 37 
- linelist 20 2 38 39 
- linelist 21 2 40 41 
 end_mesh
  
  # bounding objects at 2x max radius
