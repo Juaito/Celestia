@@ -2,7 +2,7 @@
  # panorama sphere with 10-degree facets
  # (surface normals point inward) 
  material 
-  texture0 "milkyway_2020_8k_gal.jpg" #replace this filename
+  texture0 "milkyway_2020_8k_gal.*" #replace this filename
   emissive 1 1 1 diffuse 1 1 1 opacity 0.4
  end_material
   
@@ -875,3 +875,4 @@
    696  659  697  660  698  661  699  662  700  663  701  664
    702  665
  end_mesh
+
